@@ -1,0 +1,408 @@
+Start testing: Jan 07 16:37 UTC
+----------------------------------------------------------
+1/15 Testing: SeatLabelParsing.ValidLabels
+1/15 Test: SeatLabelParsing.ValidLabels
+Command: "/workspace/build/booking_tests" "--gtest_filter=SeatLabelParsing.ValidLabels" "--gtest_also_run_disabled_tests"
+Directory: /workspace/build
+"SeatLabelParsing.ValidLabels" start time: Jan 07 16:37 UTC
+Output:
+----------------------------------------------------------
+Running main() from /workspace/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SeatLabelParsing.ValidLabels
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SeatLabelParsing
+[ RUN      ] SeatLabelParsing.ValidLabels
+[       OK ] SeatLabelParsing.ValidLabels (0 ms)
+[----------] 1 test from SeatLabelParsing (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"SeatLabelParsing.ValidLabels" end time: Jan 07 16:37 UTC
+"SeatLabelParsing.ValidLabels" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/15 Testing: SeatLabelParsing.InvalidLabels
+2/15 Test: SeatLabelParsing.InvalidLabels
+Command: "/workspace/build/booking_tests" "--gtest_filter=SeatLabelParsing.InvalidLabels" "--gtest_also_run_disabled_tests"
+Directory: /workspace/build
+"SeatLabelParsing.InvalidLabels" start time: Jan 07 16:37 UTC
+Output:
+----------------------------------------------------------
+Running main() from /workspace/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SeatLabelParsing.InvalidLabels
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SeatLabelParsing
+[ RUN      ] SeatLabelParsing.InvalidLabels
+[       OK ] SeatLabelParsing.InvalidLabels (1 ms)
+[----------] 1 test from SeatLabelParsing (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"SeatLabelParsing.InvalidLabels" end time: Jan 07 16:37 UTC
+"SeatLabelParsing.InvalidLabels" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/15 Testing: SeatLabelFormatting.IndexToLabel
+3/15 Test: SeatLabelFormatting.IndexToLabel
+Command: "/workspace/build/booking_tests" "--gtest_filter=SeatLabelFormatting.IndexToLabel" "--gtest_also_run_disabled_tests"
+Directory: /workspace/build
+"SeatLabelFormatting.IndexToLabel" start time: Jan 07 16:37 UTC
+Output:
+----------------------------------------------------------
+Running main() from /workspace/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SeatLabelFormatting.IndexToLabel
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SeatLabelFormatting
+[ RUN      ] SeatLabelFormatting.IndexToLabel
+[       OK ] SeatLabelFormatting.IndexToLabel (0 ms)
+[----------] 1 test from SeatLabelFormatting (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"SeatLabelFormatting.IndexToLabel" end time: Jan 07 16:37 UTC
+"SeatLabelFormatting.IndexToLabel" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/15 Testing: BookingServiceData.ListMovies
+4/15 Test: BookingServiceData.ListMovies
+Command: "/workspace/build/booking_tests" "--gtest_filter=BookingServiceData.ListMovies" "--gtest_also_run_disabled_tests"
+Directory: /workspace/build
+"BookingServiceData.ListMovies" start time: Jan 07 16:37 UTC
+Output:
+----------------------------------------------------------
+Running main() from /workspace/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BookingServiceData.ListMovies
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BookingServiceData
+[ RUN      ] BookingServiceData.ListMovies
+[       OK ] BookingServiceData.ListMovies (0 ms)
+[----------] 1 test from BookingServiceData (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"BookingServiceData.ListMovies" end time: Jan 07 16:37 UTC
+"BookingServiceData.ListMovies" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/15 Testing: BookingServiceData.ListTheatersForMovie
+5/15 Test: BookingServiceData.ListTheatersForMovie
+Command: "/workspace/build/booking_tests" "--gtest_filter=BookingServiceData.ListTheatersForMovie" "--gtest_also_run_disabled_tests"
+Directory: /workspace/build
+"BookingServiceData.ListTheatersForMovie" start time: Jan 07 16:37 UTC
+Output:
+----------------------------------------------------------
+Running main() from /workspace/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BookingServiceData.ListTheatersForMovie
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BookingServiceData
+[ RUN      ] BookingServiceData.ListTheatersForMovie
+[       OK ] BookingServiceData.ListTheatersForMovie (0 ms)
+[----------] 1 test from BookingServiceData (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"BookingServiceData.ListTheatersForMovie" end time: Jan 07 16:37 UTC
+"BookingServiceData.ListTheatersForMovie" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/15 Testing: BookingServiceData.FindShow
+6/15 Test: BookingServiceData.FindShow
+Command: "/workspace/build/booking_tests" "--gtest_filter=BookingServiceData.FindShow" "--gtest_also_run_disabled_tests"
+Directory: /workspace/build
+"BookingServiceData.FindShow" start time: Jan 07 16:37 UTC
+Output:
+----------------------------------------------------------
+Running main() from /workspace/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BookingServiceData.FindShow
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BookingServiceData
+[ RUN      ] BookingServiceData.FindShow
+[       OK ] BookingServiceData.FindShow (0 ms)
+[----------] 1 test from BookingServiceData (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"BookingServiceData.FindShow" end time: Jan 07 16:37 UTC
+"BookingServiceData.FindShow" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/15 Testing: Availability.InitiallyAllSeatsAvailable
+7/15 Test: Availability.InitiallyAllSeatsAvailable
+Command: "/workspace/build/booking_tests" "--gtest_filter=Availability.InitiallyAllSeatsAvailable" "--gtest_also_run_disabled_tests"
+Directory: /workspace/build
+"Availability.InitiallyAllSeatsAvailable" start time: Jan 07 16:37 UTC
+Output:
+----------------------------------------------------------
+Running main() from /workspace/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Availability.InitiallyAllSeatsAvailable
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Availability
+[ RUN      ] Availability.InitiallyAllSeatsAvailable
+[       OK ] Availability.InitiallyAllSeatsAvailable (0 ms)
+[----------] 1 test from Availability (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"Availability.InitiallyAllSeatsAvailable" end time: Jan 07 16:37 UTC
+"Availability.InitiallyAllSeatsAvailable" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/15 Testing: Booking.RejectInvalidShowId
+8/15 Test: Booking.RejectInvalidShowId
+Command: "/workspace/build/booking_tests" "--gtest_filter=Booking.RejectInvalidShowId" "--gtest_also_run_disabled_tests"
+Directory: /workspace/build
+"Booking.RejectInvalidShowId" start time: Jan 07 16:37 UTC
+Output:
+----------------------------------------------------------
+Running main() from /workspace/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Booking.RejectInvalidShowId
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Booking
+[ RUN      ] Booking.RejectInvalidShowId
+[       OK ] Booking.RejectInvalidShowId (0 ms)
+[----------] 1 test from Booking (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"Booking.RejectInvalidShowId" end time: Jan 07 16:37 UTC
+"Booking.RejectInvalidShowId" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/15 Testing: Booking.RejectEmptyRequest
+9/15 Test: Booking.RejectEmptyRequest
+Command: "/workspace/build/booking_tests" "--gtest_filter=Booking.RejectEmptyRequest" "--gtest_also_run_disabled_tests"
+Directory: /workspace/build
+"Booking.RejectEmptyRequest" start time: Jan 07 16:37 UTC
+Output:
+----------------------------------------------------------
+Running main() from /workspace/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Booking.RejectEmptyRequest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Booking
+[ RUN      ] Booking.RejectEmptyRequest
+[       OK ] Booking.RejectEmptyRequest (0 ms)
+[----------] 1 test from Booking (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"Booking.RejectEmptyRequest" end time: Jan 07 16:37 UTC
+"Booking.RejectEmptyRequest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/15 Testing: Booking.RejectInvalidSeatLabel
+10/15 Test: Booking.RejectInvalidSeatLabel
+Command: "/workspace/build/booking_tests" "--gtest_filter=Booking.RejectInvalidSeatLabel" "--gtest_also_run_disabled_tests"
+Directory: /workspace/build
+"Booking.RejectInvalidSeatLabel" start time: Jan 07 16:37 UTC
+Output:
+----------------------------------------------------------
+Running main() from /workspace/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Booking.RejectInvalidSeatLabel
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Booking
+[ RUN      ] Booking.RejectInvalidSeatLabel
+[       OK ] Booking.RejectInvalidSeatLabel (0 ms)
+[----------] 1 test from Booking (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"Booking.RejectInvalidSeatLabel" end time: Jan 07 16:37 UTC
+"Booking.RejectInvalidSeatLabel" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/15 Testing: Booking.RejectDuplicateLabelsInSameRequest
+11/15 Test: Booking.RejectDuplicateLabelsInSameRequest
+Command: "/workspace/build/booking_tests" "--gtest_filter=Booking.RejectDuplicateLabelsInSameRequest" "--gtest_also_run_disabled_tests"
+Directory: /workspace/build
+"Booking.RejectDuplicateLabelsInSameRequest" start time: Jan 07 16:37 UTC
+Output:
+----------------------------------------------------------
+Running main() from /workspace/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Booking.RejectDuplicateLabelsInSameRequest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Booking
+[ RUN      ] Booking.RejectDuplicateLabelsInSameRequest
+[       OK ] Booking.RejectDuplicateLabelsInSameRequest (0 ms)
+[----------] 1 test from Booking (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"Booking.RejectDuplicateLabelsInSameRequest" end time: Jan 07 16:37 UTC
+"Booking.RejectDuplicateLabelsInSameRequest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/15 Testing: Booking.SuccessfulBookingMarksSeatsUnavailable
+12/15 Test: Booking.SuccessfulBookingMarksSeatsUnavailable
+Command: "/workspace/build/booking_tests" "--gtest_filter=Booking.SuccessfulBookingMarksSeatsUnavailable" "--gtest_also_run_disabled_tests"
+Directory: /workspace/build
+"Booking.SuccessfulBookingMarksSeatsUnavailable" start time: Jan 07 16:37 UTC
+Output:
+----------------------------------------------------------
+Running main() from /workspace/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Booking.SuccessfulBookingMarksSeatsUnavailable
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Booking
+[ RUN      ] Booking.SuccessfulBookingMarksSeatsUnavailable
+[       OK ] Booking.SuccessfulBookingMarksSeatsUnavailable (0 ms)
+[----------] 1 test from Booking (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"Booking.SuccessfulBookingMarksSeatsUnavailable" end time: Jan 07 16:37 UTC
+"Booking.SuccessfulBookingMarksSeatsUnavailable" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/15 Testing: Booking.AllOrNothingBooking
+13/15 Test: Booking.AllOrNothingBooking
+Command: "/workspace/build/booking_tests" "--gtest_filter=Booking.AllOrNothingBooking" "--gtest_also_run_disabled_tests"
+Directory: /workspace/build
+"Booking.AllOrNothingBooking" start time: Jan 07 16:37 UTC
+Output:
+----------------------------------------------------------
+Running main() from /workspace/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Booking.AllOrNothingBooking
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Booking
+[ RUN      ] Booking.AllOrNothingBooking
+[       OK ] Booking.AllOrNothingBooking (0 ms)
+[----------] 1 test from Booking (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"Booking.AllOrNothingBooking" end time: Jan 07 16:37 UTC
+"Booking.AllOrNothingBooking" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/15 Testing: Booking.CannotOverbookSameSeat
+14/15 Test: Booking.CannotOverbookSameSeat
+Command: "/workspace/build/booking_tests" "--gtest_filter=Booking.CannotOverbookSameSeat" "--gtest_also_run_disabled_tests"
+Directory: /workspace/build
+"Booking.CannotOverbookSameSeat" start time: Jan 07 16:37 UTC
+Output:
+----------------------------------------------------------
+Running main() from /workspace/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Booking.CannotOverbookSameSeat
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Booking
+[ RUN      ] Booking.CannotOverbookSameSeat
+[       OK ] Booking.CannotOverbookSameSeat (0 ms)
+[----------] 1 test from Booking (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"Booking.CannotOverbookSameSeat" end time: Jan 07 16:37 UTC
+"Booking.CannotOverbookSameSeat" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/15 Testing: Concurrency.OnlyOneThreadCanBookSameSeat
+15/15 Test: Concurrency.OnlyOneThreadCanBookSameSeat
+Command: "/workspace/build/booking_tests" "--gtest_filter=Concurrency.OnlyOneThreadCanBookSameSeat" "--gtest_also_run_disabled_tests"
+Directory: /workspace/build
+"Concurrency.OnlyOneThreadCanBookSameSeat" start time: Jan 07 16:37 UTC
+Output:
+----------------------------------------------------------
+Running main() from /workspace/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Concurrency.OnlyOneThreadCanBookSameSeat
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Concurrency
+[ RUN      ] Concurrency.OnlyOneThreadCanBookSameSeat
+[       OK ] Concurrency.OnlyOneThreadCanBookSameSeat (1 ms)
+[----------] 1 test from Concurrency (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"Concurrency.OnlyOneThreadCanBookSameSeat" end time: Jan 07 16:37 UTC
+"Concurrency.OnlyOneThreadCanBookSameSeat" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 07 16:37 UTC

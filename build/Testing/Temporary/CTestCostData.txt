@@ -1,0 +1,16 @@
+SeatLabelParsing.ValidLabels 3 0.0354038
+SeatLabelParsing.InvalidLabels 3 0.0372611
+SeatLabelFormatting.IndexToLabel 3 0.0376588
+BookingServiceData.ListMovies 3 0.0366291
+BookingServiceData.ListTheatersForMovie 3 0.0374067
+BookingServiceData.FindShow 3 0.0359392
+Availability.InitiallyAllSeatsAvailable 3 0.0366979
+Booking.RejectInvalidShowId 3 0.0360195
+Booking.RejectEmptyRequest 3 0.035443
+Booking.RejectInvalidSeatLabel 3 0.0352205
+Booking.RejectDuplicateLabelsInSameRequest 3 0.0345791
+Booking.SuccessfulBookingMarksSeatsUnavailable 3 0.0346989
+Booking.AllOrNothingBooking 3 0.0339249
+Booking.CannotOverbookSameSeat 3 0.0347843
+Concurrency.OnlyOneThreadCanBookSameSeat 3 0.0351724
+---
