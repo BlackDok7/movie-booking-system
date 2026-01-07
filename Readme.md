@@ -58,92 +58,74 @@ This representation allows fast, atomic updates.
 - Unit tests include multi-threaded booking validation
 
 ## Command Line Interface (CLI)
-
 The CLI allows interaction with the booking service.
 
 ### Example Commands
-movies
-theaters <movie_id>
-seats <movie_id> <theater_id>
-book <movie_id> <theater_id> a1 a2 a3
+- movies
+- theaters <movie_id>
+- seats <movie_id> <theater_id>
+- book <movie_id> <theater_id> a1 a2 a3
 
 ## Build Requirements
-C++17 compatible compiler (GCC / Clang)
-CMake ≥ 3.16
-Docker (recommended)
-Ninja (optional but used in container)
+- C++17 compatible compiler (GCC / Clang)
+- CMake ≥ 3.16
+- Docker
+- Ninja(optional, used in container for faster builds)
 
-## Build & Run
-
-./build_and_run.sh
-
+## Run Docker container
+**./run_docker.sh**
 The project directory is mounted into the container at /workspace.
 
-## Run tests
+## Build & Run
+**./build_and_run.sh**
+Run this script inside the container to get build done and run the CLI Application.
 
-./run_tests.sh
+## Run tests
+**./run_tests.sh**
+Run this script inside container to build and run the Gtests.
 
 What is tested:
-Listing movies and theaters
-Finding shows
-Seat parsing and formatting
-Successful bookings
-Duplicate and invalid seat handling
-Concurrent booking (multi-threaded test)
+- Listing movies and theaters
+- Finding shows
+- Seat parsing and formatting
+- Successful bookings
+- Duplicate and invalid seat handling
+- Concurrent booking (multi-threaded test)
 
 ## Code Coverage
 Coverage is generated using gcov + lcov.
-
-./run_coverage.sh
+**./run_coverage.sh**
+Run this script inside container to build and get the code coverage report.
 
 Output
 HTML report generated under:
-
 coverage/index.html
 
 ## API Documentation (Doxygen)
 The public API is documented using Doxygen.
-Generate documentation
 
-./gen_docs.sh
+Generate documentation
+**./gen_docs.sh**
 
 Output
 docs/html/index.html
 
-## Project Structure
-
-.
-├── include/
-│   ├── booking_service.hpp        # Public API (atomic)
-├── src/
-│   ├── booking_service.cpp
-│   └── cli_main.cpp
-├── test/
-│   └── booking_service_tests.cpp
-├── Dockerfile
-├── docker-compose.yml
-├── CMakeLists.txt
-├── Doxyfile
-├── run_tests.sh
-├── run_coverage.sh
-└── README.md
-
 ## Design Decisions Summary
-Atomic bitmask chosen for simplicity and performance
-Per-show isolation avoids unnecessary contention
-STL-only implementation for clarity and portability
-Docker-based build ensures reproducibility
-Extensive tests to validate correctness under concurrency
+- Atomic bitmask chosen for simplicity and performance
+- Per-show isolation avoids unnecessary contention
+- STL-only implementation for clarity and portability
+- Docker-based build ensures reproducibility
+- Extensive tests to validate correctness under concurrency
 
 ## Possible Extensions
-Persistent storage (database)
-Multiple seat rows
-Reservation expiration
-Administrator view/APIs
+- Persistent storage (database)
+- Multiple seat rows
+- Reservation expiration
+- Administrator view/APIs
 
 ## Author Notes
-This project is intentionally kept minimal while demonstrating:
-Modern C++ practices
-Correct concurrency handling
-Test-driven validation
-Clear documentation
+- This project is intentionally kept minimal while demonstrating:
+- Modern C++ practices
+- Correct concurrency handling
+- Test-driven validation
+- Clear documentation
