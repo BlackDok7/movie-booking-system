@@ -73,15 +73,21 @@ The CLI allows interaction with the booking service.
 - Ninja(optional, used in container for faster builds)
 
 ## Run Docker container
+
 **./run_docker.sh**
+
 The project directory is mounted into the container at /workspace.
 
 ## Build & Run
+
 **./build_and_run.sh**
+
 Run this script inside the container to get build done and run the CLI Application.
 
 ## Run tests
+
 **./run_tests.sh**
+
 Run this script inside container to build and run the Gtests.
 
 What is tested:
@@ -94,20 +100,26 @@ What is tested:
 
 ## Code Coverage
 Coverage is generated using gcov + lcov.
+
 **./run_coverage.sh**
+
 Run this script inside container to build and get the code coverage report.
 
 Output
+
 HTML report generated under:
+
 coverage/index.html
 
 ## API Documentation (Doxygen)
 The public API is documented using Doxygen.
 
 Generate documentation
+
 **./gen_docs.sh**
 
 Output
+
 docs/html/index.html
 
 ## Design Decisions Summary
