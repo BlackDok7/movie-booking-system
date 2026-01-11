@@ -6,6 +6,25 @@ cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Debug -DCXX_STD=17 -DENABLE_COVE
 cmake --build build
 ctest --test-dir build --output-on-failure
 
+# Run the CLI app and tests commands for line coverage
+CLI="./build/booking_cli"
+if [ -x "$CLI" ]; then
+  "$CLI" <<'EOF'
+help
+movies
+theaters 1
+theaters 33
+seats 1 1
+seats 22 1
+book 1 1 a1
+book 22 1 a1
+seats 1 1
+seaats
+EOF
+else
+  echo "CLI not found at $CLI (skipping CLI coverage run)"
+fi
+
 # 2) Ensure lcov/genhtml exist (Debian/Ubuntu)
 if ! command -v lcov >/dev/null 2>&1; then
   apt-get update

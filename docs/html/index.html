@@ -158,41 +158,81 @@ Command Line Interface (CLI)</h1>
 <p>The CLI allows interaction with the booking service.</p>
 <h2><a class="anchor" id="autotoc_md10"></a>
 Example Commands</h2>
-<p>movies theaters &lt;movie_id&gt; seats &lt;movie_id&gt; &lt;theater_id&gt; book &lt;movie_id&gt; &lt;theater_id&gt; a1 a2 a3</p>
+<ul>
+<li>movies</li>
+<li>theaters &lt;movie_id&gt;</li>
+<li>seats &lt;movie_id&gt; &lt;theater_id&gt;</li>
+<li>book &lt;movie_id&gt; &lt;theater_id&gt; a1 a2 a3</li>
+</ul>
 <h1><a class="anchor" id="autotoc_md11"></a>
 Build Requirements</h1>
-<p>C++17 compatible compiler (GCC / Clang) CMake ≥ 3.16 Docker (recommended) Ninja (optional but used in container)</p>
+<ul>
+<li>C++17 compatible compiler (GCC / Clang)</li>
+<li>CMake ≥ 3.16</li>
+<li>Docker</li>
+<li>Ninja(optional, used in container for faster builds)</li>
+</ul>
 <h1><a class="anchor" id="autotoc_md12"></a>
-Build &amp; Run</h1>
-<p>./build_and_run.sh</p>
+Run Docker container</h1>
+<p>**./run_docker.sh**</p>
 <p>The project directory is mounted into the container at /workspace.</p>
 <h1><a class="anchor" id="autotoc_md13"></a>
-Run tests</h1>
-<p>./run_tests.sh</p>
-<p>What is tested: Listing movies and theaters Finding shows Seat parsing and formatting Successful bookings Duplicate and invalid seat handling Concurrent booking (multi-threaded test)</p>
+Build &amp; Run</h1>
+<p>**./build_and_run.sh**</p>
+<p>Run this script inside the container to get build done and run the CLI Application.</p>
 <h1><a class="anchor" id="autotoc_md14"></a>
+Run tests</h1>
+<p>**./run_tests.sh**</p>
+<p>Run this script inside container to build and run the Gtests.</p>
+<p>What is tested:</p><ul>
+<li>Listing movies and theaters</li>
+<li>Finding shows</li>
+<li>Seat parsing and formatting</li>
+<li>Successful bookings</li>
+<li>Duplicate and invalid seat handling</li>
+<li>Concurrent booking (multi-threaded test)</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md15"></a>
 Code Coverage</h1>
 <p>Coverage is generated using gcov + lcov.</p>
-<p>./run_coverage.sh</p>
-<p>Output HTML report generated under:</p>
+<p>**./run_coverage.sh**</p>
+<p>Run this script inside container to build and get the code coverage report.</p>
+<p>Output</p>
+<p>HTML report generated under:</p>
 <p>coverage/index.html</p>
-<h1><a class="anchor" id="autotoc_md15"></a>
-API Documentation (Doxygen)</h1>
-<p>The public API is documented using Doxygen. Generate documentation</p>
-<p>./gen_docs.sh</p>
-<p>Output docs/html/index.html</p>
 <h1><a class="anchor" id="autotoc_md16"></a>
-Project Structure</h1>
-<p>├── include/ │ ├── <a class="el" href="booking__service_8hpp.html" title="Public API for the in-memory movie booking service (atomic implementation).">booking_service.hpp</a> # Public API (atomic) ├── src/ │ ├── booking_service.cpp │ └── cli_main.cpp ├── test/ │ └── booking_service_tests.cpp ├── Dockerfile ├── docker-compose.yml ├── CMakeLists.txt ├── Doxyfile ├── run_tests.sh ├── run_coverage.sh └── README.md</p>
+API Documentation (Doxygen)</h1>
+<p>The public API is documented using Doxygen.</p>
+<p>Generate documentation</p>
+<p>**./gen_docs.sh**</p>
+<p>Output</p>
+<p>docs/html/index.html</p>
 <h1><a class="anchor" id="autotoc_md17"></a>
 Design Decisions Summary</h1>
-<p>Atomic bitmask chosen for simplicity and performance Per-show isolation avoids unnecessary contention STL-only implementation for clarity and portability Docker-based build ensures reproducibility Extensive tests to validate correctness under concurrency</p>
+<ul>
+<li>Atomic bitmask chosen for simplicity and performance</li>
+<li>Per-show isolation avoids unnecessary contention</li>
+<li>STL-only implementation for clarity and portability</li>
+<li>Docker-based build ensures reproducibility</li>
+<li>Extensive tests to validate correctness under concurrency</li>
+</ul>
 <h1><a class="anchor" id="autotoc_md18"></a>
 Possible Extensions</h1>
-<p>Persistent storage (database) Multiple seat rows Reservation expiration Administrator view/APIs</p>
+<ul>
+<li>Persistent storage (database)</li>
+<li>Multiple seat rows</li>
+<li>Reservation expiration</li>
+<li>Administrator view/APIs</li>
+</ul>
 <h1><a class="anchor" id="autotoc_md19"></a>
 Author Notes</h1>
-<p>This project is intentionally kept minimal while demonstrating: Modern C++ practices Correct concurrency handling Test-driven validation Clear documentation </p>
+<ul>
+<li>This project is intentionally kept minimal while demonstrating:</li>
+<li>Modern C++ practices</li>
+<li>Correct concurrency handling</li>
+<li>Test-driven validation</li>
+<li>Clear documentation </li>
+</ul>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->
 </div><!-- doc-content -->

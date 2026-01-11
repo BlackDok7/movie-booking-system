@@ -1,10 +1,10 @@
-Start testing: Jan 07 16:37 UTC
+Start testing: Jan 11 16:14 UTC
 ----------------------------------------------------------
 1/15 Testing: SeatLabelParsing.ValidLabels
 1/15 Test: SeatLabelParsing.ValidLabels
 Command: "/workspace/build/booking_tests" "--gtest_filter=SeatLabelParsing.ValidLabels" "--gtest_also_run_disabled_tests"
 Directory: /workspace/build
-"SeatLabelParsing.ValidLabels" start time: Jan 07 16:37 UTC
+"SeatLabelParsing.ValidLabels" start time: Jan 11 16:14 UTC
 Output:
 ----------------------------------------------------------
 Running main() from /workspace/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -20,10 +20,10 @@ Note: Google Test filter = SeatLabelParsing.ValidLabels
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.11 sec
+Test time =   0.14 sec
 ----------------------------------------------------------
 Test Passed.
-"SeatLabelParsing.ValidLabels" end time: Jan 07 16:37 UTC
+"SeatLabelParsing.ValidLabels" end time: Jan 11 16:14 UTC
 "SeatLabelParsing.ValidLabels" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -31,7 +31,7 @@ Test Passed.
 2/15 Test: SeatLabelParsing.InvalidLabels
 Command: "/workspace/build/booking_tests" "--gtest_filter=SeatLabelParsing.InvalidLabels" "--gtest_also_run_disabled_tests"
 Directory: /workspace/build
-"SeatLabelParsing.InvalidLabels" start time: Jan 07 16:37 UTC
+"SeatLabelParsing.InvalidLabels" start time: Jan 11 16:14 UTC
 Output:
 ----------------------------------------------------------
 Running main() from /workspace/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -40,17 +40,17 @@ Note: Google Test filter = SeatLabelParsing.InvalidLabels
 [----------] Global test environment set-up.
 [----------] 1 test from SeatLabelParsing
 [ RUN      ] SeatLabelParsing.InvalidLabels
-[       OK ] SeatLabelParsing.InvalidLabels (1 ms)
-[----------] 1 test from SeatLabelParsing (1 ms total)
+[       OK ] SeatLabelParsing.InvalidLabels (2 ms)
+[----------] 1 test from SeatLabelParsing (2 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
+[==========] 1 test from 1 test suite ran. (2 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.11 sec
+Test time =   0.15 sec
 ----------------------------------------------------------
 Test Passed.
-"SeatLabelParsing.InvalidLabels" end time: Jan 07 16:37 UTC
+"SeatLabelParsing.InvalidLabels" end time: Jan 11 16:14 UTC
 "SeatLabelParsing.InvalidLabels" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -58,7 +58,7 @@ Test Passed.
 3/15 Test: SeatLabelFormatting.IndexToLabel
 Command: "/workspace/build/booking_tests" "--gtest_filter=SeatLabelFormatting.IndexToLabel" "--gtest_also_run_disabled_tests"
 Directory: /workspace/build
-"SeatLabelFormatting.IndexToLabel" start time: Jan 07 16:37 UTC
+"SeatLabelFormatting.IndexToLabel" start time: Jan 11 16:14 UTC
 Output:
 ----------------------------------------------------------
 Running main() from /workspace/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -74,10 +74,10 @@ Note: Google Test filter = SeatLabelFormatting.IndexToLabel
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.11 sec
+Test time =   0.14 sec
 ----------------------------------------------------------
 Test Passed.
-"SeatLabelFormatting.IndexToLabel" end time: Jan 07 16:37 UTC
+"SeatLabelFormatting.IndexToLabel" end time: Jan 11 16:14 UTC
 "SeatLabelFormatting.IndexToLabel" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -85,7 +85,7 @@ Test Passed.
 4/15 Test: BookingServiceData.ListMovies
 Command: "/workspace/build/booking_tests" "--gtest_filter=BookingServiceData.ListMovies" "--gtest_also_run_disabled_tests"
 Directory: /workspace/build
-"BookingServiceData.ListMovies" start time: Jan 07 16:37 UTC
+"BookingServiceData.ListMovies" start time: Jan 11 16:14 UTC
 Output:
 ----------------------------------------------------------
 Running main() from /workspace/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -101,10 +101,10 @@ Note: Google Test filter = BookingServiceData.ListMovies
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.11 sec
+Test time =   0.14 sec
 ----------------------------------------------------------
 Test Passed.
-"BookingServiceData.ListMovies" end time: Jan 07 16:37 UTC
+"BookingServiceData.ListMovies" end time: Jan 11 16:14 UTC
 "BookingServiceData.ListMovies" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -112,7 +112,7 @@ Test Passed.
 5/15 Test: BookingServiceData.ListTheatersForMovie
 Command: "/workspace/build/booking_tests" "--gtest_filter=BookingServiceData.ListTheatersForMovie" "--gtest_also_run_disabled_tests"
 Directory: /workspace/build
-"BookingServiceData.ListTheatersForMovie" start time: Jan 07 16:37 UTC
+"BookingServiceData.ListTheatersForMovie" start time: Jan 11 16:14 UTC
 Output:
 ----------------------------------------------------------
 Running main() from /workspace/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -128,10 +128,10 @@ Note: Google Test filter = BookingServiceData.ListTheatersForMovie
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.11 sec
+Test time =   0.14 sec
 ----------------------------------------------------------
 Test Passed.
-"BookingServiceData.ListTheatersForMovie" end time: Jan 07 16:37 UTC
+"BookingServiceData.ListTheatersForMovie" end time: Jan 11 16:14 UTC
 "BookingServiceData.ListTheatersForMovie" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -139,7 +139,7 @@ Test Passed.
 6/15 Test: BookingServiceData.FindShow
 Command: "/workspace/build/booking_tests" "--gtest_filter=BookingServiceData.FindShow" "--gtest_also_run_disabled_tests"
 Directory: /workspace/build
-"BookingServiceData.FindShow" start time: Jan 07 16:37 UTC
+"BookingServiceData.FindShow" start time: Jan 11 16:14 UTC
 Output:
 ----------------------------------------------------------
 Running main() from /workspace/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -155,10 +155,10 @@ Note: Google Test filter = BookingServiceData.FindShow
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.11 sec
+Test time =   0.14 sec
 ----------------------------------------------------------
 Test Passed.
-"BookingServiceData.FindShow" end time: Jan 07 16:37 UTC
+"BookingServiceData.FindShow" end time: Jan 11 16:14 UTC
 "BookingServiceData.FindShow" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -166,7 +166,7 @@ Test Passed.
 7/15 Test: Availability.InitiallyAllSeatsAvailable
 Command: "/workspace/build/booking_tests" "--gtest_filter=Availability.InitiallyAllSeatsAvailable" "--gtest_also_run_disabled_tests"
 Directory: /workspace/build
-"Availability.InitiallyAllSeatsAvailable" start time: Jan 07 16:37 UTC
+"Availability.InitiallyAllSeatsAvailable" start time: Jan 11 16:14 UTC
 Output:
 ----------------------------------------------------------
 Running main() from /workspace/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -182,10 +182,10 @@ Note: Google Test filter = Availability.InitiallyAllSeatsAvailable
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.11 sec
+Test time =   0.14 sec
 ----------------------------------------------------------
 Test Passed.
-"Availability.InitiallyAllSeatsAvailable" end time: Jan 07 16:37 UTC
+"Availability.InitiallyAllSeatsAvailable" end time: Jan 11 16:14 UTC
 "Availability.InitiallyAllSeatsAvailable" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -193,7 +193,7 @@ Test Passed.
 8/15 Test: Booking.RejectInvalidShowId
 Command: "/workspace/build/booking_tests" "--gtest_filter=Booking.RejectInvalidShowId" "--gtest_also_run_disabled_tests"
 Directory: /workspace/build
-"Booking.RejectInvalidShowId" start time: Jan 07 16:37 UTC
+"Booking.RejectInvalidShowId" start time: Jan 11 16:14 UTC
 Output:
 ----------------------------------------------------------
 Running main() from /workspace/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -209,10 +209,10 @@ Note: Google Test filter = Booking.RejectInvalidShowId
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.11 sec
+Test time =   0.14 sec
 ----------------------------------------------------------
 Test Passed.
-"Booking.RejectInvalidShowId" end time: Jan 07 16:37 UTC
+"Booking.RejectInvalidShowId" end time: Jan 11 16:14 UTC
 "Booking.RejectInvalidShowId" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -220,7 +220,7 @@ Test Passed.
 9/15 Test: Booking.RejectEmptyRequest
 Command: "/workspace/build/booking_tests" "--gtest_filter=Booking.RejectEmptyRequest" "--gtest_also_run_disabled_tests"
 Directory: /workspace/build
-"Booking.RejectEmptyRequest" start time: Jan 07 16:37 UTC
+"Booking.RejectEmptyRequest" start time: Jan 11 16:14 UTC
 Output:
 ----------------------------------------------------------
 Running main() from /workspace/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -236,10 +236,10 @@ Note: Google Test filter = Booking.RejectEmptyRequest
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.11 sec
+Test time =   0.14 sec
 ----------------------------------------------------------
 Test Passed.
-"Booking.RejectEmptyRequest" end time: Jan 07 16:37 UTC
+"Booking.RejectEmptyRequest" end time: Jan 11 16:14 UTC
 "Booking.RejectEmptyRequest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -247,7 +247,7 @@ Test Passed.
 10/15 Test: Booking.RejectInvalidSeatLabel
 Command: "/workspace/build/booking_tests" "--gtest_filter=Booking.RejectInvalidSeatLabel" "--gtest_also_run_disabled_tests"
 Directory: /workspace/build
-"Booking.RejectInvalidSeatLabel" start time: Jan 07 16:37 UTC
+"Booking.RejectInvalidSeatLabel" start time: Jan 11 16:14 UTC
 Output:
 ----------------------------------------------------------
 Running main() from /workspace/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -263,10 +263,10 @@ Note: Google Test filter = Booking.RejectInvalidSeatLabel
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.11 sec
+Test time =   0.14 sec
 ----------------------------------------------------------
 Test Passed.
-"Booking.RejectInvalidSeatLabel" end time: Jan 07 16:37 UTC
+"Booking.RejectInvalidSeatLabel" end time: Jan 11 16:14 UTC
 "Booking.RejectInvalidSeatLabel" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -274,7 +274,7 @@ Test Passed.
 11/15 Test: Booking.RejectDuplicateLabelsInSameRequest
 Command: "/workspace/build/booking_tests" "--gtest_filter=Booking.RejectDuplicateLabelsInSameRequest" "--gtest_also_run_disabled_tests"
 Directory: /workspace/build
-"Booking.RejectDuplicateLabelsInSameRequest" start time: Jan 07 16:37 UTC
+"Booking.RejectDuplicateLabelsInSameRequest" start time: Jan 11 16:14 UTC
 Output:
 ----------------------------------------------------------
 Running main() from /workspace/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -290,10 +290,10 @@ Note: Google Test filter = Booking.RejectDuplicateLabelsInSameRequest
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.10 sec
+Test time =   0.14 sec
 ----------------------------------------------------------
 Test Passed.
-"Booking.RejectDuplicateLabelsInSameRequest" end time: Jan 07 16:37 UTC
+"Booking.RejectDuplicateLabelsInSameRequest" end time: Jan 11 16:14 UTC
 "Booking.RejectDuplicateLabelsInSameRequest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -301,7 +301,7 @@ Test Passed.
 12/15 Test: Booking.SuccessfulBookingMarksSeatsUnavailable
 Command: "/workspace/build/booking_tests" "--gtest_filter=Booking.SuccessfulBookingMarksSeatsUnavailable" "--gtest_also_run_disabled_tests"
 Directory: /workspace/build
-"Booking.SuccessfulBookingMarksSeatsUnavailable" start time: Jan 07 16:37 UTC
+"Booking.SuccessfulBookingMarksSeatsUnavailable" start time: Jan 11 16:14 UTC
 Output:
 ----------------------------------------------------------
 Running main() from /workspace/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -317,10 +317,10 @@ Note: Google Test filter = Booking.SuccessfulBookingMarksSeatsUnavailable
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.10 sec
+Test time =   0.14 sec
 ----------------------------------------------------------
 Test Passed.
-"Booking.SuccessfulBookingMarksSeatsUnavailable" end time: Jan 07 16:37 UTC
+"Booking.SuccessfulBookingMarksSeatsUnavailable" end time: Jan 11 16:14 UTC
 "Booking.SuccessfulBookingMarksSeatsUnavailable" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -328,7 +328,7 @@ Test Passed.
 13/15 Test: Booking.AllOrNothingBooking
 Command: "/workspace/build/booking_tests" "--gtest_filter=Booking.AllOrNothingBooking" "--gtest_also_run_disabled_tests"
 Directory: /workspace/build
-"Booking.AllOrNothingBooking" start time: Jan 07 16:37 UTC
+"Booking.AllOrNothingBooking" start time: Jan 11 16:14 UTC
 Output:
 ----------------------------------------------------------
 Running main() from /workspace/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -344,10 +344,10 @@ Note: Google Test filter = Booking.AllOrNothingBooking
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.10 sec
+Test time =   0.14 sec
 ----------------------------------------------------------
 Test Passed.
-"Booking.AllOrNothingBooking" end time: Jan 07 16:37 UTC
+"Booking.AllOrNothingBooking" end time: Jan 11 16:14 UTC
 "Booking.AllOrNothingBooking" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -355,7 +355,7 @@ Test Passed.
 14/15 Test: Booking.CannotOverbookSameSeat
 Command: "/workspace/build/booking_tests" "--gtest_filter=Booking.CannotOverbookSameSeat" "--gtest_also_run_disabled_tests"
 Directory: /workspace/build
-"Booking.CannotOverbookSameSeat" start time: Jan 07 16:37 UTC
+"Booking.CannotOverbookSameSeat" start time: Jan 11 16:14 UTC
 Output:
 ----------------------------------------------------------
 Running main() from /workspace/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -371,10 +371,10 @@ Note: Google Test filter = Booking.CannotOverbookSameSeat
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.10 sec
+Test time =   0.14 sec
 ----------------------------------------------------------
 Test Passed.
-"Booking.CannotOverbookSameSeat" end time: Jan 07 16:37 UTC
+"Booking.CannotOverbookSameSeat" end time: Jan 11 16:14 UTC
 "Booking.CannotOverbookSameSeat" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -382,7 +382,7 @@ Test Passed.
 15/15 Test: Concurrency.OnlyOneThreadCanBookSameSeat
 Command: "/workspace/build/booking_tests" "--gtest_filter=Concurrency.OnlyOneThreadCanBookSameSeat" "--gtest_also_run_disabled_tests"
 Directory: /workspace/build
-"Concurrency.OnlyOneThreadCanBookSameSeat" start time: Jan 07 16:37 UTC
+"Concurrency.OnlyOneThreadCanBookSameSeat" start time: Jan 11 16:14 UTC
 Output:
 ----------------------------------------------------------
 Running main() from /workspace/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -391,18 +391,18 @@ Note: Google Test filter = Concurrency.OnlyOneThreadCanBookSameSeat
 [----------] Global test environment set-up.
 [----------] 1 test from Concurrency
 [ RUN      ] Concurrency.OnlyOneThreadCanBookSameSeat
-[       OK ] Concurrency.OnlyOneThreadCanBookSameSeat (1 ms)
-[----------] 1 test from Concurrency (1 ms total)
+[       OK ] Concurrency.OnlyOneThreadCanBookSameSeat (4 ms)
+[----------] 1 test from Concurrency (4 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (2 ms total)
+[==========] 1 test from 1 test suite ran. (4 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.11 sec
+Test time =   0.14 sec
 ----------------------------------------------------------
 Test Passed.
-"Concurrency.OnlyOneThreadCanBookSameSeat" end time: Jan 07 16:37 UTC
+"Concurrency.OnlyOneThreadCanBookSameSeat" end time: Jan 11 16:14 UTC
 "Concurrency.OnlyOneThreadCanBookSameSeat" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Jan 07 16:37 UTC
+End testing: Jan 11 16:14 UTC

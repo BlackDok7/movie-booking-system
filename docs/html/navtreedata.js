@@ -37,11 +37,11 @@ var NAVTREE =
         [ "Example Commands", "index.html#autotoc_md10", null ]
       ] ],
       [ "Build Requirements", "index.html#autotoc_md11", null ],
-      [ "Build & Run", "index.html#autotoc_md12", null ],
-      [ "Run tests", "index.html#autotoc_md13", null ],
-      [ "Code Coverage", "index.html#autotoc_md14", null ],
-      [ "API Documentation (Doxygen)", "index.html#autotoc_md15", null ],
-      [ "Project Structure", "index.html#autotoc_md16", null ],
+      [ "Run Docker container", "index.html#autotoc_md12", null ],
+      [ "Build & Run", "index.html#autotoc_md13", null ],
+      [ "Run tests", "index.html#autotoc_md14", null ],
+      [ "Code Coverage", "index.html#autotoc_md15", null ],
+      [ "API Documentation (Doxygen)", "index.html#autotoc_md16", null ],
       [ "Design Decisions Summary", "index.html#autotoc_md17", null ],
       [ "Possible Extensions", "index.html#autotoc_md18", null ],
       [ "Author Notes", "index.html#autotoc_md19", null ]

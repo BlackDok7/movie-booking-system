@@ -9,7 +9,8 @@ static void print_help() {
         << "  movies\n"
         << "  theaters <movie_id>\n"
         << "  seats <movie_id> <theater_id>\n"
-        << "  book <movie_id> <theater_id> a1 a2 ...\n";
+        << "  book <movie_id> <theater_id> a1 a2 ...\n"
+        << "  exit \n";
 }
 
 int main() {
@@ -22,7 +23,7 @@ int main() {
     while (true) {
         std::cout << "\n> ";
         if (!std::getline(std::cin, line)) break;
-        if (line == "quit" || line == "exit") break;
+        if (line == "exit") break;
         if (line.empty()) continue;
 
         std::istringstream iss(line);

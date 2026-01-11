@@ -65,7 +65,7 @@ TEST(BookingServiceData, ListTheatersForMovie) {
     auto theaters = svc.list_theaters_for_movie(1);
     ASSERT_EQ(theaters.size(), 2u);
 
-    // Must be sorted by id (your implementation sorts)
+    // Must be sorted by id (the implementation sorts)
     EXPECT_EQ(theaters[0].id, 1);
     EXPECT_EQ(theaters[1].id, 2);
 
@@ -208,17 +208,17 @@ TEST(Concurrency, OnlyOneThreadCanBookSameSeat) {
 
     for (int i = 0; i < kThreads; ++i) {
         threads.emplace_back([&] {
-            while (!start.load(std::memory_order_acquire)) {
+            while (!start.load()) {
                 // spin until start
             }
             auto res = svc.book_seats(show, {"a1"});
             if (res.success) {
-                successes.fetch_add(1, std::memory_order_relaxed);
+                successes.fetch_add(1);
             }
         });
     }
 
-    start.store(true, std::memory_order_release);
+    start.store(true);
 
     for (auto& t : threads) {
         t.join();

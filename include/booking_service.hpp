@@ -110,7 +110,7 @@ public:
      *
      * @details
      * The constructor sets up a minimal sample dataset (movies, theaters, shows) and
-     * creates per-show booking state entries in @ref show_state_.
+     * creates per-show booking state entries in \c show_state_.
      */
     BookingService();
 
